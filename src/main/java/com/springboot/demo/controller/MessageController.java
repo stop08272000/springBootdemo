@@ -158,6 +158,14 @@ public class MessageController {
 //		hs.setAttribute("userBeanjsp", userBean);
 //	
 //	}
-//	
-//	
+	@GetMapping("/veirfy2")
+	public ModelAndView veirfy2(ModelAndView mav,HttpSession hs) {
+		
+		
+		
+
+		mav.setViewName("messages/veirfy2");
+
+		return mav;
+	}
 }
